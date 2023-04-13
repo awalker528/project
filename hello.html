@@ -10,6 +10,9 @@
   </head>
   <body>
 	<h1>Your move was a success</h1>
-	 <script>console.log(localStorage["username"])</script>
+	 <script>
+		 var userName = localStorage.getItem("username");
+	 	 console.log(userName);
+	  </script>
   </body>
 </html>
